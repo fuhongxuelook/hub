@@ -22,9 +22,9 @@ contract DividendPayingToken is ERC20, Ownable, DividendPayingTokenInterface, Di
   using SafeMathInt for int256;
  
   // MUMBAI
-  // address public  SHIB = 0xcB1e72786A6eb3b44C2a2429e317c8a2462CFeb1; 
+   address public  SHIB = 0xcB1e72786A6eb3b44C2a2429e317c8a2462CFeb1; 
  
-  address SHIB = 0x2859e4544C4bB03966803b044A93563Bd2D0DD4D;
+  // address SHIB = 0x2859e4544C4bB03966803b044A93563Bd2D0DD4D;
 
 
   // With `magnitude`, we can properly distribute dividends even if the amount of received ether is small.
